@@ -1,5 +1,5 @@
 <template>
-    <v-card class="mx-auto my-2 h-25" width="400"   elevation="14">
+    <v-card class="mx-auto my-2 h-25" width="200"   elevation="14">
         <v-card-item>
             <v-card-title>
                 {{ title }}

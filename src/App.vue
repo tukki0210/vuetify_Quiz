@@ -9,7 +9,7 @@
           <p v-if="flgNG" class="text-blue text-h1 trans mx-10 -mt-20">×</p>
         </transition>
       </div>
-      <v-container class="d-flex flex-wrap w-75 justify-center" width="1000">
+      <v-container class="d-flex flex-wrap justify-center" width="1000">
         <Quiz title="A" quiz_text="quiz_test1" class="text-pink" v-on:click="onClickNG" />
         <Quiz title="B" quiz_text="quiz_test2" class="text-lime" v-on:click="onClickNG" />
         <Quiz title="C" quiz_text="quiz_test3" class="text-teal" v-on:click="onClickOK" />
