@@ -1,12 +1,12 @@
 <template>
-    <v-card class="mx-auto my-8" max-width="344" elevation="16">
+    <v-card class="mx-auto my-2 h-25" width="400"   elevation="14">
         <v-card-item>
             <v-card-title>
-                Card title
+                {{ title }}
             </v-card-title>
-            <v-card-subtitle>
+            <!-- <v-card-subtitle>
                 Card subtitle secondary text
-            </v-card-subtitle>
+            </v-card-subtitle> -->
         </v-card-item>
 
         <v-card-text>
@@ -18,6 +18,7 @@
 export default {
     name: 'Quiz',
     props: {
+        title: String,
         quiz_text: String
     }
 }
